@@ -1,0 +1,5 @@
+Hello, this is data.txt file.
+This file is used to demonstrate file reading in Node.js.
+
+Node.js File System (fs) module allows us to work with files.
+This content is being read using readFileSync method.

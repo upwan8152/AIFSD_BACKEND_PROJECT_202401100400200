@@ -1,0 +1,7 @@
+NOTES ON FILE SYSTEM MODULE (fs)
+
+1. fs module is a built-in module in Node.js.
+2. It is used to create, read, update, delete, and rename files.
+3. readFile() is asynchronous (non-blocking).
+4. readFileSync() is synchronous (blocking).
+5. Synchronous methods stop the execution until the task is completed.
