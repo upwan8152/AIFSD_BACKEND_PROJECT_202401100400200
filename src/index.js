@@ -31,28 +31,10 @@ app.use('/api/url', urlRoutes);
 // ─── Root Route ─────────────────────────────────────────────
 app.get('/', (req, res) => {
     res.json({
-        success: true,
-        message: '🚀 AIFSD Backend API is running!',
-        version: '1.0.0',
-        author: 'Upwan Singh',
-        endpoints: {
-            crypto: {
-                'POST /api/crypto/hash': 'Hash a password with SHA-256',
-                'GET  /api/crypto/token': 'Generate a random reset token',
-                'POST /api/crypto/verify': 'Verify a password against a hash'
-            },
-            files: {
-                'GET /api/files/read': 'Read data/data.txt contents',
-                'GET /api/files/notes': 'Read docs/notes.txt contents',
-                'GET /api/files/info': 'Get file metadata (size, dates)'
-            },
-            system: {
-                'GET /api/system/info': 'Server OS, CPU, memory, uptime info'
-            },
-            url: {
-                'POST /api/url/parse': 'Parse a URL into its components'
-            }
-        }
+        name: 'Upwan Singh',
+        age: 20,
+        email: 'upwan8152@gmail.com',
+        college: 'KIET Group of Institutions'
     });
 });
 
