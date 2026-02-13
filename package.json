@@ -1,16 +1,27 @@
 {
-  "name": "backend",
+  "name": "aifsd-backend-project",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "AIFSD Backend Project — A fully functional Node.js REST API demonstrating core modules (crypto, fs, os, url) through Express endpoints",
+  "main": "src/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "nodejs",
+    "express",
+    "backend",
+    "rest-api",
+    "aifsd"
+  ],
+  "author": "Upwan Singh",
   "license": "ISC",
   "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.2.1",
     "nodemon": "^3.1.11"
   }
